@@ -323,6 +323,7 @@ aurinstall() {
   fi
 
   # Allow user to edit .install
+  unset pkgname
   unset install
   unset epoch
   . PKGBUILD
